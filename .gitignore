@@ -66,3 +66,9 @@ node_modules
 # solidity-coverage files
 /coverage
 /coverage.json
+
+
+# files not to be shown on Github
+# contracts/Lock.sol
+# test/Lock.js
+# scripts/deploy.js
