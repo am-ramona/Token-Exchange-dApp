@@ -40,10 +40,6 @@ node_modules
 node_modules
 .env
 
-# Hardhat files
-/cache
-/artifacts
-
 # TypeChain files
 /typechain
 /typechain-types
@@ -69,6 +65,6 @@ node_modules
 
 
 # files not to be shown on Github
-# contracts/Lock.sol
-# test/Lock.js
-# scripts/deploy.js
+/contracts/Lock.sol
+/test/Lock.js
+/scripts/deploy.js
