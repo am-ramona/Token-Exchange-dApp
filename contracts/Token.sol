@@ -12,7 +12,6 @@ contract Token {
 
     // Track balances
     mapping(address => uint256) public balanceOf;
-    // Send Tokens
 
     constructor(string memory _name, string memory _symbol, uint256 _totalSupply) {
         name = _name;
